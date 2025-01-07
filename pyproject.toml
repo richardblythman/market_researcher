@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "market-researcher"
+name = "market-researcher-richard"
 version = "0.1.0"
 description = ""
 authors = ["Richard Blythman <richardblythman@gmail.com>"]

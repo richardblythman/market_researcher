@@ -7,7 +7,7 @@ from naptha_sdk.user import sign_consumer_id
 from naptha_sdk.utils import get_logger
 from typing import List, Dict, Any
 from langchain_openai import ChatOpenAI
-from market_researcher.schemas import MarketResearchInput, InputSchema
+from market_researcher_richard.schemas import MarketResearchInput, InputSchema
 
 load_dotenv()
 logger = get_logger(__name__)
@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
     deployment = asyncio.run(setup_module_deployment(
         "agent", 
-        "market_researcher/configs/deployment.json",
+        "market_researcher_richard/configs/deployment.json",
         node_url=os.getenv("NODE_URL")
     ))
 
